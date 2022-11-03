@@ -4,23 +4,14 @@ from discord.ext import commands
 import asyncio
 import datetime
 
-import vk
-import vk_api
-from vk_api.longpoll import VkLongPoll, VkEventType
 
 intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix='.', intents=intents)
 
-token_vk = 
-vk_id_ghetto = "2000000001" #ид беседы кф лидеров банд
-vk_id_fam = "2000000002" #ид беседы кф лидеров семей
 
 token_ds = "MTAzNzY5NTg1ODQ4NzA4NzE1NA.G-pTXQ.9QFjH7s-bRX0mF-6VmXqzG8exAW1qnZ7WSLq6c" #токен дс бота
 
-vk_session = vk_api.VkApi(token = token_vk)
-give = vk_session.get_api()
-longpoll = VkLongPoll(vk_session)
 
 
 zabiv_channel = 813870429831692291 #канал для забивов каптов гетто
