@@ -10,7 +10,7 @@ intents.message_content = True
 client = commands.Bot(command_prefix='.', intents=intents)
 
 
-token_ds = "MTAzNzY5NTg1ODQ4NzA4NzE1NA.G-pTXQ.9QFjH7s-bRX0mF-6VmXqzG8exAW1qnZ7WSLq6c" #токен дс бота
+token_ds = "MTAzNzY5NTg1ODQ4NzA4NzE1NA.GgqoW0.9XPJ3-rKtlRh6GHlj4_DtPh0kw6Joh5frSfvEM" #токен дс бота
 
 
 
