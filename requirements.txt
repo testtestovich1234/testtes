@@ -1,0 +1,5 @@
+vk
+discord
+vk_api
+discord.py_buttons
+asyncio
